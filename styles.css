@@ -1,0 +1,33 @@
+html {
+    background-color: #1b1b1b; /* Define a cor de fundo para toda a página */
+}
+.container{
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: justify;
+}
+
+.container p{
+    margin-bottom: 20px;
+    padding: 10px1;
+}
+
+a {
+    color: #55a3a3;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+a:hover {
+    color: #f2f2f2; /* Define a nova cor do link quando o mouse passa sobre ele */
+}
+
+input:hover{
+    border: 10px;
+    color: #ccc;
+}
+
+ul li:first-child a {color: green;}
